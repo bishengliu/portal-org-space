@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tomtom
+  description: TomTom International B.V.
+  links:
+    - url: https://www.tomtom.com/
+      title: Website
+spec:
+  type: organization
+  profile:
+    displayName: TomTom
+  children: [service-platform]
