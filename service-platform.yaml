@@ -6,4 +6,4 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/bishengliu/portal-sp-space/org/service-platform.yaml
+    - https://github.com/bishengliu/portal-sp-space/orgs/service-platform.yaml
