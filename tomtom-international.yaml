@@ -11,3 +11,13 @@ spec:
   profile:
     displayName: TomTom
   children: [service-platform]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: service-platform
+  description: a reference to service platform org
+spec:
+  type: url
+  targets:
+    - https://github.com/bishengliu/portal-sp-space/blob/main/orgs/service-platform.yaml
