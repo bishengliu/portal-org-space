@@ -10,4 +10,4 @@ spec:
   type: organization
   profile:
     displayName: TomTom
-  children: []
+  children: [service-platform]
