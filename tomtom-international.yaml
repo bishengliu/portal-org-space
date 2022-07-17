@@ -16,8 +16,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: service-platform
-  description: a reference to service platform org
+  description: a reference to all PUs and service platform
 spec:
   type: url
   targets:
-    - https://github.com/bishengliu/portal-sp-space/blob/main/orgs/service-platform.yaml
+    - https://github.com/bishengliu/portal-sp-space/blob/main/orgs/service-platform.yaml #sp
