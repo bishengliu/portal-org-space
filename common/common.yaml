@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: common-location
+  description: a reference to all groups, domains and systems managed by shared across PUs
+spec:
+  targets:
+    - ./groups/all-groups.yaml
+    # - ./domains/all-domains.yaml
+    # - ./systems/all-systems.yaml

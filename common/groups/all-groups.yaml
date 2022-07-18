@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: common-groups
+  description: common groups
+spec:
+  type: service-platform
+  profile:
+    displayName: Common Groups
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: common-groups-location
+  description: a reference to all common groups and users
+spec:
+  targets:
+    - ./guest-group.yaml
