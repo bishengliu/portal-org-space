@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./groups/sp-groups.yaml # groups
+    - ./catalogs/systems/all-systems.yaml
