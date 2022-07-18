@@ -19,4 +19,5 @@ metadata:
   description: a reference to all PUs and service platform
 spec:
   targets:
-    - ./service-platform/service-platform.yaml #sp
+    - ./common/common.yaml
+    - ./service-platform/service-platform.yaml
