@@ -2,6 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: dx-domain
-  description: Everything related to dx
+  description: everything related to dx
 spec:
   owner: sp-dx

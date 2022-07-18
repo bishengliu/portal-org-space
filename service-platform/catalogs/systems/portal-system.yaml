@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: portal
-  description: Everything related to portal
+  name: portal-system
+  description: everything related to portal
 spec:
   owner: sp-dx-sde
   domain: dx-domain

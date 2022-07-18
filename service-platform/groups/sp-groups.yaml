@@ -12,8 +12,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: service-platform-groups
-  description: A collection of all service platform groups
+  name: sp-groups-location
+  description: a reference to all service platform groups
 spec:
   targets:
     - ./dx-groups.yaml

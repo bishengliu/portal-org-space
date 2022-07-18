@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: sp-dx
-  description: service platform dx sub unit
+  description: service platform DveEx sub unit
 spec:
   type: sub-unit
   profile:
