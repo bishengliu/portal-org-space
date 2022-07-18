@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sp-domains
+  description: A collection of all service platform domains
+spec:
+  targets:
+    - ./systems/dx-domain.yaml
