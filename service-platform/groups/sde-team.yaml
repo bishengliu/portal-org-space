@@ -8,4 +8,4 @@ spec:
   profile:
     displayName: the SDE team
   children: []
-  members: [guest]
+  members: []

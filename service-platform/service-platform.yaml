@@ -5,6 +5,6 @@ metadata:
   description: a reference to all groups, domains and systems managed by service-platform
 spec:
   targets:
-    - ./groups/sp-groups.yaml
-    - ./domains/sp-domains.yaml
-    - ./systems/sp-systems.yaml
+    - ./groups/all-groups.yaml
+    - ./domains/all-domains.yaml
+    - ./systems/all-systems.yaml
