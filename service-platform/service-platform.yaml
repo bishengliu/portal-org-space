@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: service-platform-location
-  description: a reference to all entities and groups of service-platform
+  description: a reference to all groups, domains and systems managed by service-platform
 spec:
   targets:
-    - ./groups/sp-groups.yaml # groups
-    - ./catalogs/domains/all-domains.yaml
-    - ./catalogs/systems/all-systems.yaml
+    - ./groups/sp-groups.yaml
+    - ./domains/sp-domains.yaml
+    - ./systems/sp-systems.yaml
