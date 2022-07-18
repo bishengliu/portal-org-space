@@ -15,7 +15,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: service-platform
+  name: tomtom-space
   description: a reference to all PUs and service platform
 spec:
   type: url

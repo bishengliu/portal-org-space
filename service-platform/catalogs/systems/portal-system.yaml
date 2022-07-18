@@ -5,3 +5,4 @@ metadata:
   description: Everything related to portal
 spec:
   owner: sp-dx-sde
+  domain: dx-domain
