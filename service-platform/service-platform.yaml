@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: service-platform
+  description: A collection of all entities and groups of service-platform
+spec:
+  targets:
+    - ./groups/sp-groups.yaml # groups
